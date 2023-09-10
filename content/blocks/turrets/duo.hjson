@@ -31,13 +31,25 @@ ammoTypes: {
       }
    salt-item-salt: {
       type: BasicBulletType
-      shootSound: shootAlt
       speed: 4
-      damage: 300
+      damage: 2
       width: 7
       height: 9
       reloadMultiplier: 2
       ammoMultiplier: 6
       lifetime: 20
+      backColor: E2E3E9FF
+      frontColor: E2E3E9FF
+      fragBullets: 2
+      fragBullet: {
+         type: BasicBulletType
+         speed: 2
+         damage: 300
+         width: 5
+         height: 3
+         lifetime: 8
+         backColor: E2E3E9FF
+         frontColor: E2E3E9FF
+         }
       }
 }
