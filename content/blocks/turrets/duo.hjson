@@ -41,14 +41,14 @@ ammoTypes: {
       backColor: E2E3E9FF
       frontColor: E2E3E9FF
       fragBullets: 2
-      fragRandomSpread: 12
+      fragSpread: 12
       fragBullet: {
          type: BasicBulletType
-         speed: 1
+         speed: 2
          damage: 300
          width: 5
          height: 3
-         lifetime: 16
+         lifetime: 9
          backColor: E2E3E9FF
          frontColor: E2E3E9FF
          }
