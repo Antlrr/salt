@@ -1,0 +1,43 @@
+ammoTypes: {
+   copper: {
+      type: BasicBulletType
+      speed: 2.5
+      damage: 9
+      width: 7
+      height: 9
+      lifetime: 60
+      ammoMultiplier: 2
+      }
+   graphite: {
+      type: BasicBulletType
+      speed: 3.5
+      damage: 18
+      width: 9
+      height: 12
+      reloadMultiplier: 0.6
+      ammoMultiplier: 4
+      lifetime: 60
+      }
+   silicon: {
+      type: BasicBulletType 
+      speed: 3
+      damage: 12
+      width: 7
+      height: 9
+      homingPower: 0.1
+      reloadMultiplier: 1.5
+      ammoMultiplier: 5
+      lifetime: 60
+      }
+   salt: {
+      type: BasicBulletType
+      shootSound: shootAlt
+      speed: 4
+      damage: 12
+      width: 7
+      height: 9
+      reloadMultiplier: -0.5
+      ammoMultiplier: 2
+      lifetime: 50
+      }
+}
