@@ -42,6 +42,7 @@ ammoTypes: {
       frontColor: E2E3E9FF
       fragBullets: 2
       fragSpread: 12
+      fragRandomSpread: 12
       fragBullet: {
          type: BasicBulletType
          speed: 2
