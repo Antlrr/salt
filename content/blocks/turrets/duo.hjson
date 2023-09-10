@@ -40,17 +40,17 @@ ammoTypes: {
       lifetime: 20
       backColor: E2E3E9FF
       frontColor: E2E3E9FF
-      trailChance: 1
+      trailChance: 2
       trailEffect: {
          type: ParticleEffect
-         particles: 2
+         particles: 10
          colorFrom: E2E3E955
-         colorTo: E2E3E900
+         colorTo: E2E3E955
          sizeFrom: 1
          sizeTo: 1
          baseLength: -1
          length: 2
-         lifetime: 8
+         lifetime: 4
          }
       fragBullets: 2
       fragSpread: 12
