@@ -40,6 +40,7 @@ ammoTypes: {
       lifetime: 20
       backColor: E2E3E9FF
       frontColor: E2E3E9FF
+      hitEffect: none
       trailChance: 2
       trailEffect: {
          type: ParticleEffect
@@ -75,7 +76,7 @@ ammoTypes: {
          damage: 300
          width: 5
          height: 3
-         lifetime: 9
+         lifetime: 11
          backColor: E2E3E9FF
          frontColor: E2E3E9FF
          despawnEffect: {
