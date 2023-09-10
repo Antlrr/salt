@@ -41,7 +41,7 @@ ammoTypes: {
       backColor: E2E3E9FF
       frontColor: E2E3E9FF
       trailChance: 1
-      trailEFfect: {
+      trailEffect: {
          type: ParticleEffect
          particles: 2
          colorFrom: E2E3E9FF
