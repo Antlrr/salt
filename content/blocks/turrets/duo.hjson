@@ -79,6 +79,7 @@ ammoTypes: {
          lifetime: 11
          backColor: E2E3E9FF
          frontColor: E2E3E9FF
+         hitEffect: none
          despawnEffect: {
             type: ParticleEffect
             particles: 10
