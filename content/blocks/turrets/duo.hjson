@@ -46,7 +46,7 @@ ammoTypes: {
          particles: 10
          colorFrom: E2E3E955
          colorTo: E2E3E955
-         sizeFrom: 1
+         sizeFrom: 1.9
          sizeTo: 1
          baseLength: 3.5
          length: 0
@@ -78,6 +78,20 @@ ammoTypes: {
          lifetime: 9
          backColor: E2E3E9FF
          frontColor: E2E3E9FF
-         }
+         despawnEffect: {
+            type: ParticleEffect
+            particles: 10
+            length: -4
+            baseLength: 0
+            lifetime: 20
+            interp: pow5Out
+            sizeInterp: pow10In
+            lightColor: E2E3E955
+            colorFrom: E2E3E955
+            colorTo: E2E3E955
+            sizeFrom: 2
+            sizeTo: 0
+               }
+          }
       }
 }
