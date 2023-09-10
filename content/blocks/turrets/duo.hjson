@@ -29,7 +29,7 @@ ammoTypes: {
       ammoMultiplier: 5
       lifetime: 60
       }
-   item-salt: {
+   thorium: {
       type: BasicBulletType
       shootSound: shootAlt
       speed: 4
