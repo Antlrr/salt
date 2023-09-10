@@ -37,7 +37,7 @@ ammoTypes: {
       width: 7
       height: 9
       reloadMultiplier: 2
-      ammoMultiplier: 4
-      lifetime: 35
+      ammoMultiplier: 6
+      lifetime: 20
       }
 }
