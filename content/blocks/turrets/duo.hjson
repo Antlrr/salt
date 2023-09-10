@@ -46,8 +46,8 @@ ammoTypes: {
          particles: 2
          colorFrom: E2E3E9FF00
          colorTo: E2E3E9FF55
-         sizeFrom: 4
-         sizeTo: 4
+         sizeFrom: 1
+         sizeTo: 1
          baseLength: 0
          length: 2
          lifetime: 8
