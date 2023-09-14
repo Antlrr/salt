@@ -1,0 +1,64 @@
+type: missile
+controller: MissileAI
+health: 840
+armor: 8
+rotateSpeed: 0
+hitSize: 18
+speed: 0
+flying: true
+range: 64
+maxRange: 64
+drawBody: false
+drawCell: false
+engineSize: 0
+lifetime: 120
+weapons: [
+   {
+   x: 0
+   y: 0
+   mirror: false
+   rotate: true
+   rotateSpeed: 20
+   reload: 30
+   shootSound: none
+   shootEffect: none
+   smokeEffect: none
+   bullet: {
+      type: BulletType
+      hitEffect: none
+      despawnEffect: {
+         type: WaveEffect
+         sizeFrom: 21
+         sizeTo: 21
+         strokeTo: 0
+         }
+      splashDamage: 100
+      splashDamageRadius: 21
+      lifetime: 1
+      speed: 0
+      scaleLife: true
+      }
+   }
+]
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 10
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+         type: ParticleEffect
+         lifetime: 10
+         particles: 18
+         length: 0
+         baseLength: 13
+         colorFrom: E2E3E98C
+         colorTo: E2E3E900
+         sizeFrom: 5
+         sizeTo: 0
+         layer: 110
+        }
+    }
+]
