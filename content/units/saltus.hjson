@@ -42,19 +42,14 @@ weapons: [
    mirror: false
    rotate: false
    reload: 1
-   inaccuracy: 32
-   shootSound: noammo
+   shootSound: none
+   shoot: {
+      type: ShootSpread
+      shots: 12
+      spread: 360
+   }  
    bullet: {
-      type: BulletType
-      pierce: true
-      pierceBuilding: true
-      hitEffect: hitMeltdown
-      shootEffect: none
-      despawnEffect: none
-      smokeEffect: none
-      lifetime: 2
-      speed: 6
-      damage: 16
+      type: ContinuousFlameBulletType
       }
    }
 ]
