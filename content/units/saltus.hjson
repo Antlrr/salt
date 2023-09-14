@@ -8,7 +8,6 @@ speed: 2
 flying: false
 rippleScale: 0
 range: 320
-maxRange: 320
 weapons: [
    {
    x: 0
