@@ -12,7 +12,7 @@ parts: [
     suffix: -saw
     type: RegionPart
     x: 0
-    y: 3
+    y: 5
     moveX: 0.8
     moveY: -1
     moveRot: -8
@@ -28,7 +28,7 @@ parts: [
         progress: reload
         reload: 60
         recoil: 2
-        moveY: -1
+        moveY: 3
         rot: 1440
       }
     ]
