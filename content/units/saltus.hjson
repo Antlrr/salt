@@ -56,3 +56,25 @@ weapons: [
       }
    }
 ]
+abilities: [
+  {
+    type: MoveLightningAbility
+    chance: 10
+    minSpeed: -1
+    maxSpeed: 0
+    length: 0
+    shootSound: none
+    shootEffect: {
+         type: ParticleEffect
+         lifetime: 10
+         particles: 18
+         length: 0
+         baseLength: 14
+         colorFrom: E2E3E98C
+         colorTo: E2E3E98C
+         sizeFrom: 4
+         sizeTo: 0
+         layer: 110
+        }
+    }
+]
