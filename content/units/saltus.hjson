@@ -28,6 +28,7 @@ weapons: [
       lifetime: 16
       speed: 20
       scaleLife: true
+      collides: false
       despawnUnit: salt-saltmin
       }
    }
