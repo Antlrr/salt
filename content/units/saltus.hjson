@@ -11,9 +11,9 @@ parts: [
     suffix: -saw
     type: RegionPart
     x: 0
-    y: 5
+    y: 0
     moveX: 0
-    moveY: 4
+    moveY: 9
     layerOffset: 0
     heatColor: ff0000
     heatProgress: heat
@@ -46,7 +46,7 @@ weapons: [
       type: BulletType
       pierce: true
       pierceBuilding: true
-      hitEffect: none
+      hitEffect: hitMeltdown
       shootEffect: none
       despawnEffect: none
       smokeEffect: none
