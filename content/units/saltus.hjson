@@ -28,7 +28,7 @@ parts: [
         reload: 60
         recoil: 2
         moveY: 8
-        rot: 360
+        rot: 320
       }
     ]
   }
@@ -40,9 +40,10 @@ weapons: [
    mirror: false
    rotate: false
    reload: 1
-   inaccuracy: 30
+   inaccuracy: 32
+   shootSound: grinding
    bullet: {
-      type: BasicBulletType
+      type: BulletType
       hitEffect: none
       shootEffect: none
       despawnEffect: none
