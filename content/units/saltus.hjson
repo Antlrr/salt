@@ -42,15 +42,11 @@ weapons: [
    mirror: false
    rotate: true
    rotateSpeed: 20
-   reload: 1
+   reload: 0
    shootSound: none
-   shoot: {
-      type: ShootSpread
-      shots: 12
-      spread: 360
-   }  
    bullet: {
       type: ContinuousFlameBulletType
+      flareLength: 0
       }
    }
 ]
