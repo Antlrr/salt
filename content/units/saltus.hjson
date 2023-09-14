@@ -45,8 +45,8 @@ weapons: [
    reload: 0
    shootSound: none
    bullet: {
-      type: ContinuousFlameBulletType
-      flareLength: 0
+      type: RailBulletType
+      lifetime: 500
       }
    }
 ]
