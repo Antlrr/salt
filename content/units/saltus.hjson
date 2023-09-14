@@ -40,12 +40,12 @@ weapons: [
    mirror: false
    rotate: false
    reload: 1
-   shootEffect: none
    bullet: {
       type: BulletType
       hitEffect: none
+      shootEffect: none
       despawnEffect: none
-      sprite: bullet
+      sprite: item-salt
       lifetime: 2
       speed: 4
       damage: 6
