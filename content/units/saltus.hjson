@@ -40,7 +40,8 @@ weapons: [
    x: 0
    y: 0
    mirror: false
-   rotate: false
+   rotate: true
+   rotateSpeed: 20
    reload: 1
    shootSound: none
    shoot: {
