@@ -39,8 +39,7 @@ weapons: [
    y: 0
    mirror: false
    rotate: false
-   reload: 40
-   alwaysContinuous: true
+   reload: 1
    bullet: {
       type: BasicBulletType
       lifetime: 4
