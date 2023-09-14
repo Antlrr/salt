@@ -44,6 +44,8 @@ weapons: [
    shootSound: noammo
    bullet: {
       type: BulletType
+      pierce: true
+      pierceBuilding: true
       hitEffect: none
       shootEffect: none
       despawnEffect: none
