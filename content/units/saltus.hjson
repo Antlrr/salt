@@ -14,8 +14,7 @@ parts: [
     x: 0
     y: 5
     moveX: 0.8
-    moveY: -3
-    moveRot: -8
+    moveY: 4
     layerOffset: 0
     heatColor: ff0000
     heatProgress: reload
@@ -28,7 +27,7 @@ parts: [
         progress: reload
         reload: 60
         recoil: 2
-        moveY: 3
+        moveY: 4
         rot: 1440
       }
     ]
