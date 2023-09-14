@@ -24,13 +24,7 @@ weapons: [
    bullet: {
       type: BulletType
       hitEffect: none
-      despawnEffect: { 
-         type: WaveEffect
-         sizeFrom: 22
-         sizeTo: 22
-         }
-      splashDamage: 6
-      splashDamageRadius: 22
+      despawnEffect: none
       lifetime: 16
       speed: 20
       scaleLife: true
