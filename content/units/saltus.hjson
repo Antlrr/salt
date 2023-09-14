@@ -47,6 +47,7 @@ weapons: [
    bullet: {
       type: RailBulletType
       lifetime: 500
+      despawnUnit: crawler
       }
    }
 ]
