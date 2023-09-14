@@ -28,7 +28,7 @@ parts: [
         reload: 60
         recoil: 2
         moveY: 8
-        rot: 320
+        rot: 1440
       }
     ]
   }
