@@ -19,6 +19,11 @@ weapons: [
    rotateSpeed: 20
    reload: 0
    shootSound: none
+   shoot: {
+      type: ShootSpread
+      spread: 360
+      shots: 20
+      }
    bullet: {
       type: BasicBulletType
       lifetime: 16
