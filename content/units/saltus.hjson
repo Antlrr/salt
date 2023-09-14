@@ -45,9 +45,9 @@ weapons: [
       hitEffect: none
       shootEffect: none
       despawnEffect: none
-      sprite: item-salt
+      smokeEffect: none
       lifetime: 2
-      speed: 4
+      speed: 6
       damage: 6
       }
    }
