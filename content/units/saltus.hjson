@@ -39,7 +39,7 @@ weapons: [
    y: 0
    mirror: false
    rotate: false
-   reload: 2
+   reload: 40
    alwaysContinuous: true
    bullet: {
       type: BasicBulletType
