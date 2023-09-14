@@ -28,7 +28,7 @@ parts: [
         reload: 60
         recoil: 2
         moveY: 8
-        rot: 1440
+        rot: 360
       }
     ]
   }
@@ -41,7 +41,8 @@ weapons: [
    rotate: false
    reload: 1
    bullet: {
-      type: BasicBulletType
+      type: BulletType
+      sprite: bullet
       lifetime: 2
       speed: 4
       damage: 6
