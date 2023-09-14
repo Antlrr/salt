@@ -8,6 +8,8 @@ speed: 2
 flying: false
 rippleScale: 0
 hovering: true
+range: 160
+maxRange: 160
 parts: [
   {
     suffix: -saw
@@ -45,8 +47,9 @@ weapons: [
    reload: 0
    shootSound: none
    bullet: {
-      type: RailBulletType
+      type: BasicBulletType
       lifetime: 500
+      speed: 20
       scaleLife: true
       despawnUnit: crawler
       }
