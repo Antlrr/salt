@@ -40,8 +40,10 @@ weapons: [
    mirror: false
    rotate: false
    reload: 40
+   alwaysContinuous: true
    bullet: {
-      type: BasicBulletType
+      type: ContinuousFlameBulletType
+      length: 6
       damage: 6
       }
    }
