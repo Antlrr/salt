@@ -7,6 +7,7 @@ mechFrontSway: 0.24
 speed: 2
 flying: false
 rippleScale: 0
+hovering: true
 parts: [
   {
     suffix: -saw
@@ -70,10 +71,10 @@ abilities: [
          lifetime: 10
          particles: 18
          length: 0
-         baseLength: 14
+         baseLength: 17
          colorFrom: E2E3E98C
-         colorTo: E2E3E98C
-         sizeFrom: 4
+         colorTo: E2E3E900
+         sizeFrom: 6
          sizeTo: 0
          layer: 110
         }
