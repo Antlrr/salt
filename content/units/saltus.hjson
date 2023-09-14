@@ -40,8 +40,9 @@ weapons: [
    mirror: false
    rotate: false
    reload: 1
+   inaccuracy: 30
    bullet: {
-      type: BulletType
+      type: BasicBulletType
       hitEffect: none
       shootEffect: none
       despawnEffect: none
