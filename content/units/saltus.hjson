@@ -1,11 +1,10 @@
 type: mech
 health: 840
-armor: 6
-buildSpeed: 1.6
-rotateSpeed: 5.2
+armor: 8
+rotateSpeed: 7.2
 hitSize: 20
 mechFrontSway: 0.24
-speed: 0.95
+speed: 2
 flying: false
 parts: [
   {
@@ -21,6 +20,7 @@ parts: [
     mirror: false
     turretShading: false //note: this needs -l and -r sprites
     progress: heat
+    under: true
     moves: [ 
       {
         type: PartMove
