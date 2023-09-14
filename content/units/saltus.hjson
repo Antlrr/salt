@@ -27,7 +27,7 @@ parts: [
         progress: heat
         reload: 60
         recoil: 2
-        moveY: 4
+        moveY: 8
         rot: 1440
       }
     ]
