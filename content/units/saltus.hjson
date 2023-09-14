@@ -7,7 +7,6 @@ mechFrontSway: 0.24
 speed: 2
 flying: false
 rippleScale: 0
-hovering: true
 range: 320
 maxRange: 320
 weapons: [
