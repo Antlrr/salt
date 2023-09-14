@@ -21,7 +21,7 @@ weapons: [
    shootSound: none
    shoot: {
       type: ShootSpread
-      spread: 360
+      spread: 180
       shots: 20
       }
    bullet: {
