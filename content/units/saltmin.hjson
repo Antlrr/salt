@@ -1,5 +1,5 @@
 type: missile
-deathSound: pulse
+deathSound: largeExplosion
 lowAltitude: true
 deathExplosionEffect: none
 speed: 0
@@ -20,7 +20,7 @@ health: 50
 hitSize: 0
 drawCell: false
 trailLength: 10
-loopSound: pulse
+loopSound: grinding
 loopSoundVolume: 0.5
 drawBody: false
 engineSize: 0
@@ -30,7 +30,7 @@ drawShadow: false
 weapons: [
    {
    x: 0
-   y: 0
+   y: -2
    mirror: false
    rotate: true
    rotateSpeed: 20
@@ -44,12 +44,12 @@ weapons: [
       hitEffect: none
       despawnEffect: {
          type: WaveEffect
-         sizeFrom: 21
-         sizeTo: 21
+         sizeFrom: 0
+         sizeTo: 40
          strokeTo: 0
          }
       splashDamage: 100
-      splashDamageRadius: 21
+      splashDamageRadius: 40
       lifetime: 1
       speed: 0
       scaleLife: true
