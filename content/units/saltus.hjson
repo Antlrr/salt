@@ -13,7 +13,7 @@ parts: [
     type: RegionPart
     x: 0
     y: 5
-    moveX: 0.8
+    moveX: 0
     moveY: 4
     layerOffset: 0
     heatColor: ff0000
@@ -39,11 +39,12 @@ weapons: [
    y: 0
    mirror: false
    rotate: false
-   reload: 40
+   reload: 1
    alwaysContinuous: true
    bullet: {
-      type: ContinuousFlameBulletType
-      length: 6
+      type: BasicBulletType
+      lifetime: 2
+      speed: 4
       damage: 6
       }
    }
