@@ -40,8 +40,11 @@ weapons: [
    mirror: false
    rotate: false
    reload: 1
+   shootEffect: none
    bullet: {
       type: BulletType
+      hitEffect: none
+      despawnEffect: none
       sprite: bullet
       lifetime: 2
       speed: 4
