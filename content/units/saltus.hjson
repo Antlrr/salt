@@ -14,7 +14,7 @@ parts: [
     x: 0
     y: 5
     moveX: 0.8
-    moveY: -1
+    moveY: -3
     moveRot: -8
     layerOffset: 0
     heatColor: ff0000
