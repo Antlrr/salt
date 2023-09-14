@@ -20,7 +20,7 @@ parts: [
     heatProgress: heat
     mirror: false
     turretShading: false //note: this needs -l and -r sprites
-    progress: warmup
+    progress: heat
     moves: [ 
       {
         type: PartMove
