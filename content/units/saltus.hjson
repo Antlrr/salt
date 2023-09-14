@@ -19,17 +19,21 @@ weapons: [
    rotateSpeed: 20
    reload: 0
    shootSound: none
-   shoot: {
-      type: ShootSpread
-      spread: 180
-      shots: 20
-      }
+   shootEffect: none
+   smokeEffect: none
    bullet: {
-      type: BasicBulletType
+      type: BulletType
+      hitEffect: none
+      despawnEffect: { 
+         type: WaveEffect
+         sizeFrom: 22
+         sizeTo: 22
+         }
+      splashDamage: 6
+      splashDamageRadius: 22
       lifetime: 16
       speed: 20
       scaleLife: true
-      despawnUnit: crawler
       }
    }
 ]
