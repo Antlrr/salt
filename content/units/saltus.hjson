@@ -44,12 +44,12 @@ abilities: [
     shootEffect: {
          type: ParticleEffect
          lifetime: 10
-         particles: 10
+         particles: 28
          length: 0
          baseLength: 26
          colorFrom: E2E3E98C
          colorTo: E2E3E900
-         sizeFrom: 6
+         sizeFrom: 8
          sizeTo: 0
          layer: 110
         }
