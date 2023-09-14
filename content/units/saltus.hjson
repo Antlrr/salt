@@ -41,7 +41,7 @@ weapons: [
    rotate: false
    reload: 1
    inaccuracy: 32
-   shootSound: grinding
+   shootSound: noammo
    bullet: {
       type: BulletType
       hitEffect: none
@@ -50,7 +50,7 @@ weapons: [
       smokeEffect: none
       lifetime: 2
       speed: 6
-      damage: 6
+      damage: 16
       }
    }
 ]
