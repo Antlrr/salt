@@ -42,7 +42,7 @@ weapons: [
    reload: 1
    bullet: {
       type: BasicBulletType
-      lifetime: 4
+      lifetime: 2
       speed: 4
       damage: 6
       }
