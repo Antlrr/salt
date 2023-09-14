@@ -6,6 +6,7 @@ hitSize: 20
 mechFrontSway: 0.24
 speed: 2
 flying: false
+rippleScale: 0
 parts: [
   {
     suffix: -saw
