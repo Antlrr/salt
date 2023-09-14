@@ -39,11 +39,11 @@ weapons: [
    y: 0
    mirror: false
    rotate: false
-   reload: 1
+   reload: 2
    alwaysContinuous: true
    bullet: {
       type: BasicBulletType
-      lifetime: 2
+      lifetime: 4
       speed: 4
       damage: 6
       }
